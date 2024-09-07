@@ -77,10 +77,7 @@ public class CreateTask extends BasePage {
 	
 	public void validatecreateTaskTitle()
 	{
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[contains(text(),'Create New Tasks')]")));
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[contains(text(),'Create New Tasks')]")));
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[contains(text(),'Create New Tasks')]")));
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[contains(text(),'Create New Tasks')]")));
+		
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[contains(text(),'Create New Tasks')]")));
 		System.out.println("********Create Task screen Displayed***********");
 	}
